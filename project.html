@@ -1,0 +1,40 @@
+<html width="500">
+	<head>
+		<title>Java script project</title>
+	<style>
+            html, body {
+                width: 2500px;
+                height: 2500px;
+                margin: 0;
+                padding: 0;
+                //background-color: green;
+            }
+        
+        </style>
+	</head>
+	
+	<body>
+	Choose the size of the board :<select id="sizee" type="option">
+	 <option selected=""></option>
+	<option value="20">20*20</option>
+	<option value="50">50*50</option>
+	<option value="100">100*100</option>
+	</select>
+	<button id="create">Create </button>
+	Choose the delay in ms :<select id="delay" type="option">
+	 <option selected=""></option>
+	<option value="100">100</option>
+	<option value="200">200</option>
+	<option value="500">500</option>
+	<option value="1000">1000</option>
+	</select>
+				<button id="start">Start</button>
+				<button id="next">Next</button>
+				<button id="previous">Previous</button>
+				<button id="reset">Reset</button>
+		<div id="board"></div> 
+		
+	<script src="jquery-3.1.1.js"></script>
+	<script src="project4.js"></script>
+	</body>
+</html>
